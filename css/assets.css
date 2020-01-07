@@ -1,0 +1,168 @@
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	width: 100%;
+	margin: 0;
+}
+img {
+	vertical-align:bottom
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: Roboto-medium;
+ src: url(fonts/Roboto-Medium_0.ttf);
+ font-display: swap;
+}
+@font-face {
+ font-family: Roboto-bold;
+ src: url(fonts/Roboto-Bold_0.ttf);
+ font-display: swap;
+}
+@font-face {
+ font-family: Roboto-light;
+ src: url(fonts/Roboto-Light_0.ttf);
+ font-display: swap;
+}
+@font-face {
+ font-family: Roboto-black;
+ src: url(fonts/Roboto-Black_0.ttf);
+ font-display: swap;
+}
+@font-face {
+ font-family: DIN;
+ src: url(fonts/DIN.otf);
+ font-display: swap;
+}
+
+/* Typography */
+
+h1 {
+	text-align: center;
+	font-size: 110px;
+	font-family: DIN;
+	color: #fff;
+}
+
+
+.title {
+
+}
+
+.subtitle {
+
+}
+
+p {
+
+}
+
+.df {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.btn {
+	background: #fff;
+	text-decoration: none;
+	color: #36302a;
+	font-size: 18px;
+	font-family: DIN;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 30px 60px;
+	position: relative;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	transition: .2s ease-out;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.btn > span.cube {
+	width: 11px;
+	height: 11px;
+	background: #2590E3;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	bottom: -2px;
+	right: -20px;
+	width: 20px;
+	border : 2px solid #fff;
+	border-left: none;
+	transition: .2s ease-out;
+
+}
+
+.btn:hover {
+	border: 2px solid #2590E3;
+}
+
+.btn:hover:after {
+	border : 2px solid #2590E3;
+	border-left: none;
+}
+
+.btn:focus {
+	border: 2px solid #2590E3;
+	background: #2590E3;
+	color: #fff;
+}
+
+.btn:focus > span.cube {
+	background: #fff;
+}
+
+.btn:focus:after {
+	border : 2px solid #2590E3;
+	border-left: none;
+}
+
+.header-fix {
+	padding-top: 110px;
+}
+
+.btn.blue {
+	border: 2px solid #2590E3;
+	color: #fff;
+	background: #2590E3;
+}
+.btn.blue:after {
+	border : 2px solid #2590E3;
+	border-left: none;
+	right: -22px;
+}
+
+.btn.blue:hover {
+	color: #36302a;
+	background: #fff;
+}
+.btn.blue:hover:after {
+	border : 2px solid #2590E3;
+	border-left: none;
+	background: #fff;
+}

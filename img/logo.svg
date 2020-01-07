@@ -1,0 +1,53 @@
+<svg id="лого" xmlns="http://www.w3.org/2000/svg" width="239" height="88.5" viewBox="0 0 239 88.5">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 28.655px;
+        fill: #36302a;
+        text-anchor: middle;
+        font-family: Roboto;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #2590e3;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        opacity: 0.17;
+      }
+
+      .cls-4 {
+        opacity: 0.25;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill-opacity: 0.49;
+        opacity: 0.26;
+      }
+
+      .cls-7 {
+        opacity: 0.09;
+      }
+    </style>
+  </defs>
+  <text id="Boxedtrips" class="cls-1" transform="matrix(0.838, 0, 0, 0.838, 167.003, 54.299)">Boxedtrips</text>
+  <g>
+    <path class="cls-2" d="M1033.71,168.755l37.33,22.122v44.245l-37.33,22.121L995,234.43V191.569Z" transform="translate(-995 -168.75)"/>
+    <path class="cls-3" d="M1071.74,190.877L1033.71,213v44.244l38.03-22.813V190.877Z" transform="translate(-995 -168.75)"/>
+    <path id="Shape_610_copy" data-name="Shape 610 copy" class="cls-4" d="M995,191.569L1033.71,213v44.244L995,234.43V191.569Z" transform="translate(-995 -168.75)"/>
+    <path class="cls-5" d="M1010.9,199.864v26.27l22.12,13.135,23.51-12.443v-26.27l-22.82-13.827Z" transform="translate(-995 -168.75)"/>
+    <path class="cls-6" d="M1016.43,200.556l17.28,9.678,17.29-9.678L1033.71,189.5Z" transform="translate(-995 -168.75)"/>
+    <path class="cls-7" d="M1010.9,200.556L1033.71,213V239.96l-22.81-13.826V200.556Z" transform="translate(-995 -168.75)"/>
+    <path id="Shape_608_copy" data-name="Shape 608 copy" class="cls-3" d="M1056.53,200.556L1033.71,213v26.27l22.82-12.443v-26.27Z" transform="translate(-995 -168.75)"/>
+  </g>
+</svg>
